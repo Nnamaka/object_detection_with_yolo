@@ -83,4 +83,4 @@ Yolo is a great model to use for custome object detection. The final Trained mod
 
 # Credits
 
-Credits goes to the YOLO team. Lebelimg and Roboflow.
+Credit goes to the YOLO team. Lebelimg and Roboflow.
