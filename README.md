@@ -13,7 +13,7 @@ Roboflow was used to preprocess and serve my custom dataset for Hand-gestures
 
 # Steps
 
-<b>Step 1.</b>
+##Step 1.
 
 Install <a href="https://github.com/ultralytics/yolov5">Yolo</a> from its github repo
 <pre>
@@ -27,25 +27,25 @@ Install its requirments
 </pre>
 
 
-<b>Step 2.</b>
+##Step 2.
 
 Get Dataset from Roboflow.
-Towards the end when you are about done processing your dataset on Roboflow, Your API key is provided with a code snippet
-</pre>
+Towards the end when you are about done processing your dataset on Roboflow, Your API key is provided with a code snippet.
+<pre>
 from roboflow import Roboflow
 rf = Roboflow(api_key="your api key in here")
 project = rf.workspace("gestures-kejav").project("hand_gestures-iwirp")
 dataset = project.version(1).download("yolov5")
-<pre>
+</pre>
 
-<b>Step 3.</b>
+##Step 3.
 
 Train your model
 <pre>
 !python train.py --img 416 --batch 8 --epochs 150 --data {dataset.location}/data.yaml --weights yolov5s.pt --cache
 </pre>
 
-<b>Step 4.</b>
+##Step 4.
 
 Evaluate your model to see how its doing. 
 Tensorboard can be used to evaluate your Yolo model performance. 
@@ -54,7 +54,7 @@ Tensorboard can be used to evaluate your Yolo model performance.
 %tensorboard --logdir runs
 </pre>
 
-<b>Step 5.</b>
+##Step 5.
 
 Make inference with your model to see how good its predictions are.
 <pre>
