@@ -1,4 +1,4 @@
-# object_detection_with_yolo
+# Object Detection with Yolo
 Detect Hand gestures with yolo
 
 <span align="left">
@@ -81,6 +81,6 @@ When you clone the Yolo Repo, it comes with utility scripts that takes care of c
 Yolo is a great model to use for custom object detection tasks. The final trained model can be converted further to compatible formats for deployment on Web, Mobile or Edge devices.
 
 
-# Credits
+# Credit
 
 Credit goes to the YOLO team. Lebelimg and Roboflow.
