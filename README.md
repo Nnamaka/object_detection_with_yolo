@@ -76,9 +76,9 @@ for imageName in glob.glob('/content/yolov5/runs/detect/exp/*' + extension):
 
 # Conclusion
 
-The Yolo framework has taken care of literally everything from training to evaluation and inference. 
+The Yolo framework has taken care of literally everything from training, evaluation and inference. 
 When you clone the Yolo Repo, it comes with utility scripts that takes care of common functionality that the developer would have rather been writting scripts for.
-Yolo is a great model to use for custome object detection. The final Trained model can be converted further to compatible formats for deployment on either The Web, Mobile or Edge devices.
+Yolo is a great model to use for custom object detection tasks. The final trained model can be converted further to compatible formats for deployment on Web, Mobile or Edge devices.
 
 
 # Credits
